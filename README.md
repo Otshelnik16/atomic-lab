@@ -1,7 +1,9 @@
 ##Локальный рабочий процесс
 ---
 1. Атомарные коммиты (git log --graph --oneline)
+   
 ![Uploading image.png…]()
+
 
 ---
 

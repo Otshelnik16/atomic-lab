@@ -4,8 +4,9 @@
 <img width="1680" height="579" alt="image" src="https://github.com/user-attachments/assets/d91d7dd6-3c00-469e-a360-68554cfd249c" />
 ---
 **2. Срабатывание pre-commit хука
+<img width="1257" height="782" alt="image" src="https://github.com/user-attachments/assets/8f19c9fa-65a5-42b0-bd4b-59f1c42ab181" />
+---
 <img width="1258" height="912" alt="image" src="https://github.com/user-attachments/assets/abc30f04-c796-4cc6-b494-6caecb52c133" />
-
 ---
 **1. Как использование `git add -p` помогает при отладке через `git bisect`?**
 
@@ -26,5 +27,4 @@
 **5. Что будет, если удалить `venv` и выполнить `make install` на чистой машине? Покажите на практике.**
 
 Сначала удаляешь папку `venv` — окружения нет, пакетов нет. Потом запускаешь `make install`. В цели `install` прописано: создать свежее виртуальное окружение, установить туда зависимости строго из `requirements.lock.txt`. В итоге получаем точную копию того состояния, которое закоммитил разработчик. На практике я это проверил — сделал скриншот «чистого старта»: до `make install` питон не видел модулей, после — всё подтянулось как надо.
-
 
